@@ -1,0 +1,56 @@
+
+body{
+    height: 100vh;
+    background-image: url(https://www.blois.fr/sites/default/files/styles/img__1620x1080__image_scale/public/media/images/blois-maisondelabd-201807-fchristophe-FC13701.jpg?itok=577MwCl6);
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+
+h1{
+    background-image: url(https://previews.123rf.com/images/roystudio/roystudio1405/roystudio140500011/28490669-fond-blanc-texture-du-papier-froiss%C3%A9.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 100px;
+    font-size: 120px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+                helvetica, arial, sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.card{
+    width: 70%;
+    font-size: 17px;
+    border: 1px solid darkcyan;
+    border-radius: .25rem;
+    background-color: transparent;
+    color: honeydew;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 1px 1px rgba(255, 173, 80, 0.685);
+    margin: 20px;
+    
+}
+h3{
+    color: darkcyan;
+}
+
+.btn-light {
+    color: white;
+    background-color: darkcyan;
+    border-color: transparent;
+}

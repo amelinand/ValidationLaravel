@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: cornsilk;
+}
+
+body{
+    height: 100%;
+    background-image: url(https://www.wallpapertip.com/wmimgs/9-98006_book-desktop-wallpapers-hd-desktop-wallpaper-hd-books.jpg);
+    background-position: unset;
+}
+.card{
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 31px;
+    display: flex;
+    align-items: center;
+    background-image: url(http://www4.ac-nancy-metz.fr/clg-j-ferry-neuves-maisons/spip/IMG/rubon119.jpg);
+}
+
+h1{
+        background-image: url(https://cdn.radiofrance.fr/s3/cruiser-production/2016/03/061cde89-a268-4497-abf4-1f31c94ecdec/870x489_fotolia_81556974_subscription_monthly_m.webp);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 100px;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+                helvetica, arial, sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+}
+
+main{
+    color: rgb(168, 167, 162);
+    
+}
+
+form{
+    width: 70%;
+    margin-inline: auto;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn {
+    color: #fff;
+    background-color: transparent;
+    /* background-color: #0d6efd; */
+    border-color: darkcyan;
+}
